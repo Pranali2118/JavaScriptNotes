@@ -9,6 +9,7 @@
 
 //1. for...of loop (Used for Arrays)
 //📌 for...of is used to directly access the values of an array.
+//addd
 
 //Example
 let a = [2, 3, 4, 5, 6];
