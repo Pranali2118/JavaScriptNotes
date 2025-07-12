@@ -31,7 +31,7 @@ console.log(x); // undefined
 let arr = [1, 2];
 console.log(arr[5]); // undefined
 //Array index out of range:
-let arr = [1, 2];
+ arr = [1, 2];
 console.log(arr[5]); // undefined
 //4 Function is called without passing a parameter:
 function test(x) {

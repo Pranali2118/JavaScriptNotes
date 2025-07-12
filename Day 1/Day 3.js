@@ -15,16 +15,16 @@ console.log(name); // Parvez
 console.log(age);  // 20
 
 //🔹 Array Destructuring
-let arr = [1, 2, 3, 4, 5];
-const [a, , b, ...rest] = arr;
+ arr = [1, 2, 3, 4, 5];
+const [a1, , b1, ...rest] = arr;
 
-console.log(a);    // 1
-console.log(b);    // 3
+console.log(a1);    // 1
+console.log(b1);    // 3
 console.log(rest); // [4, 5]
 
 //🔁 Using Spread (...) in Objects/Arrays
-let a = [1, 2, 3];
-let b = [...a, 4, 5];
+ a = [1, 2, 3];
+ b = [...a, 4, 5];
 console.log(b); // [1, 2, 3, 4, 5]
 
 //✅ Spread in Object
@@ -54,12 +54,12 @@ console.log(obj);
 // { '0': 10, '1': 20, '2': 30 }
 
 //❌ Why This Fails?
-let a = {
+ a = {
     name: "Parvez",
     age: 20
 };
 
-let b = [...a];  // ❌ Error
+ b = [...a];  // ❌ Error
 console.log(b);
 
 //TypeError: a is not iterable
