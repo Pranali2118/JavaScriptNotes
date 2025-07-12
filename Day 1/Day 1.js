@@ -1,4 +1,4 @@
-// ✅ Day 1: JavaScript Loop
+//✅ Day 1: JavaScript Loop
 //🔁 Types of Loops/Iterations Covered:
 //for...of loop
 //for...in loop
