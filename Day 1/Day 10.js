@@ -12,7 +12,7 @@ const user = {
 
   getRegular: function () {
     return function () {
-      console.log("Regular inside getRegular:", this.name);// Yha ye normal function hai or normal function ye dekhta hai ki vo kiske context me call hua hai jab ye function return hua pr vo kisi ke context me call nhi hua isliye vaha this.name ki value undfined deraha hai
+      console.log("Regular inside getRegular:", this);// Yha ye normal function hai or normal function ye dekhta hai ki vo kiske context me call hua hai jab ye function return hua pr vo kisi ke context me call nhi hua isliye vaha this.name ki value undfined deraha hai
     };
   }
 };
@@ -20,9 +20,8 @@ const user = {
 const arrowFn = user.getArrow();
 const regularFn = user.getRegular();
 
-arrowFn();    //Parvez
-regularFn(); // Undefined 
-
+arrowFn();    //Parvez 1111111
+regularFn(); // Undefined ...............................
 
 // 🔧 Why arrowFn() prints "Parvez"?
 // getArrow() is a method in user, so this refers to user
