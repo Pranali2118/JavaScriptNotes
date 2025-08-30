@@ -13,7 +13,7 @@ const user = {
   getRegular: function () {
     return function () {
       console.log("Regular inside getRegular:", this);// Yha ye normal function hai or normal function ye dekhta hai ki vo kiske context me call hua hai jab ye function return hua pr vo kisi ke context me call nhi hua isliye vaha this.name ki value undfined deraha hai
-    };
+    };  ///jjjjjjjjjjjjjjjjjjjjjjjjjj
   }
 };
 
